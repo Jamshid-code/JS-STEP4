@@ -1,12 +1,12 @@
-// function calculateage(name, year,actualyear){
-//     let age = actualyear - year;
-//     return name + ', Ваш возраст ' + age;
-// }
-// let name1 = prompt('Введите ваше имя')
-// let age1 = +prompt('Введите ваш год рождения')
-// let actualyear = +prompt('Введите нынешний год')
-// let answer = calculateage(name1, age1, actualyear)
-// console.log(answer);
+function calculateage(name, year,actualyear){
+    let age = actualyear - year;
+    return name + ', Ваш возраст ' + age;
+}
+let name1 = prompt('Введите ваше имя')
+let age1 = +prompt('Введите ваш год рождения')
+let actualyear = +prompt('Введите нынешний год')
+let answer = calculateage(name1, age1, actualyear)
+console.log(answer);
 
 
 
